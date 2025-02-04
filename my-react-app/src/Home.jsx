@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import './Home.css';
 
 function Home() {
@@ -7,9 +6,9 @@ function Home() {
             <h1 className="header">Welcome to my React app!</h1>
             <h3 className="subHeader">Sections</h3>
             <ul className="sectionList">
-                <li className="sectionItem"><Link to="/products" className="sectionLink">Products</Link></li>
-                <li className="sectionItem"><Link to="/about" className="sectionLink">About</Link></li>
-                <li className="sectionItem"><Link to="/contact" className="sectionLink">Contact</Link></li>
+                <li className="sectionItem"><a className="sectionLink">Product</a></li>
+                <li className="sectionItem"><a className="sectionLink">About</a></li>
+                <li className="sectionItem"><a className="sectionLink">Contact</a></li>
             </ul>
         </div>
     );

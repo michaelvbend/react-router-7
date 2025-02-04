@@ -1,8 +1,6 @@
-import { Link, useNavigate } from "react-router-dom";
 import './Products.css';
 
 function Products() {
-    const navigate = useNavigate();
     const products = [
         { id: 1, name: 'Product 1', price: 100 },
         { id: 2, name: 'Product 2', price: 200 },
@@ -19,18 +17,12 @@ function Products() {
                         </li>
                         <button
                             className="productButton"
-                            onClick={() => navigate(`/products/${product.id}`)}
                         >
                             View details
                         </button>
                     </span>
                 ))}
             </ul>
-            <Link to={"/"}
-                className="backButton"
-            >
-                Go back
-            </Link>
         </div>
     );
 }
