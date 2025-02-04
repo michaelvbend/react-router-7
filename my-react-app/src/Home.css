@@ -1,0 +1,37 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subHeader {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sectionList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sectionItem {
+    margin-bottom: 10px;
+}
+
+.sectionLink {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.sectionLink:hover {
+    text-decoration: underline;
+}
